@@ -1,0 +1,6 @@
+services:
+  chatapplicationpoc:
+    image: ${DOCKER_REGISTRY-}chatapplicationpoc
+    build:
+      context: .
+      dockerfile: ChatApplicationPOC\Dockerfile
